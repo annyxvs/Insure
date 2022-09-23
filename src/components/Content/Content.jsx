@@ -6,6 +6,7 @@ import Affordable from '../../assets/images/icon-affordable-prices.svg'
 import Forma from '../../assets/images/bg-pattern-intro-left-desktop.svg'
 
 import * as S from './style'
+import { Banner } from "../Banner/Banner"
 
 export const Content = () =>{
     return(
@@ -24,6 +25,9 @@ export const Content = () =>{
                     <Card img={People} title='People First' text="Our plans aren't full of conditions and clauses to prevent payouts.We make sure you're covered when you need it."/>
                 </div>
         </S.Content>
+        <S.Banner>
+            <Banner/>
+        </S.Banner>
         </>
     )
 }

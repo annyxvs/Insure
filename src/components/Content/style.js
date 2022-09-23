@@ -46,3 +46,11 @@ export const Content = styled.div`
         align-items: center;
     }
 `
+
+export const Banner = styled.div`
+    height: 40vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+`

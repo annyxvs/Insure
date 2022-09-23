@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Card = styled.div`
-    width: 18vw;
+    width: 16vw;
     margin-right: 10rem;
     overflow-x: hidden;
 
